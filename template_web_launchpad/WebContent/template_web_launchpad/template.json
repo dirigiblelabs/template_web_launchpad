@@ -52,7 +52,7 @@
         "action": "generate"
     }, {
         "name": "ScriptingServices/templates/appTemplate.js",
-        "action": "copy"
+        "action": "generate"
     }, {
         "name": "ScriptingServices/app.js",
         "action": "generate"
