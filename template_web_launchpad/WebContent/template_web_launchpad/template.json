@@ -21,32 +21,11 @@
         "name": "ExtensionDefinitions/extension_point/launchpad.extensionpoint",
         "action": "generate"
     }, {
-        "name": "ExtensionDefinitions/extension/launchpad_develop.extension",
-        "action": "generate"
-    }, {
-        "name": "ExtensionDefinitions/extension/launchpad_discover.extension",
-        "action": "generate"
-    }, {
-        "name": "ExtensionDefinitions/extension/launchpad_operate.extension",
-        "action": "generate"
-    }, {
         "name": "ScriptingServices/api/home.js",
         "action": "generate"
     }, {
         "name": "ScriptingServices/api/menu.js",
         "action": "generate"
-    }, {
-        "name": "ScriptingServices/extension/develop.js",
-        "action": "copy"
-    }, {
-        "name": "ScriptingServices/extension/discover.js",
-        "action": "copy"
-    }, {
-        "name": "ScriptingServices/extension/develop.js",
-        "action": "copy"
-    }, {
-        "name": "ScriptingServices/extension/operate.js",
-        "action": "copy"
     }, {
         "name": "ScriptingServices/extension/launchpadExtensionUtils.js",
         "action": "generate"
