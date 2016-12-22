@@ -1,0 +1,79 @@
+{  
+    "name": "Launchpad",
+    "description": "Launchpad application",
+    "image": "launchpad.png",
+    "sources": [{
+        "name": "index.html",
+        "action": "generate"
+    }, {
+        "name": "WebContent/styles/custom.css",
+        "action": "copy"
+    }, {
+        "name": "WebContent/styles/main.css",
+        "action": "copy"
+    }, {
+        "name": "WebContent/templates/home.html",
+        "action": "copy"
+    }, {
+        "name": "WebContent/templates/view.html",
+        "action": "copy"
+    }, {
+        "name": "ExtensionDefinitions/extension_point/launchpad.extensionpoint",
+        "action": "generate"
+    }, {
+        "name": "ExtensionDefinitions/extension/launchpad_develop.extension",
+        "action": "generate"
+    }, {
+        "name": "ExtensionDefinitions/extension/launchpad_discover.extension",
+        "action": "generate"
+    }, {
+        "name": "ExtensionDefinitions/extension/launchpad_operate.extension",
+        "action": "generate"
+    }, {
+        "name": "ScriptingServices/api/home.js",
+        "action": "generate"
+    }, {
+        "name": "ScriptingServices/api/menu.js",
+        "action": "generate"
+    }, {
+        "name": "ScriptingServices/extension/develop.js",
+        "action": "copy"
+    }, {
+        "name": "ScriptingServices/extension/discover.js",
+        "action": "copy"
+    }, {
+        "name": "ScriptingServices/extension/develop.js",
+        "action": "copy"
+    }, {
+        "name": "ScriptingServices/extension/operate.js",
+        "action": "copy"
+    }, {
+        "name": "ScriptingServices/extension/launchpadExtensionUtils.js",
+        "action": "generate"
+    }, {
+        "name": "ScriptingServices/templates/appTemplate.js",
+        "action": "copy"
+    }, {
+        "name": "ScriptingServices/app.js",
+        "action": "generate"
+    }],
+    "parameters": [{
+        "name":"templateType",
+        "required":"true"
+    }, {
+        "name":"fileName",
+        "required":"true"
+    }, {
+        "name":"projectName",
+        "required":"true"
+    }, {
+        "name":"packageName",
+        "required":"true"
+    }, {  
+        "name":"tableName",
+        "required":"true"
+    }, {  
+        "name":"columns",
+        "required":"true"
+    }]
+}

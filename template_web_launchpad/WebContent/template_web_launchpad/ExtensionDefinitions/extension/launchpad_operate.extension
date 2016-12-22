@@ -1,0 +1,5 @@
+{
+  "extension":"/${packageName}/extension/operate",
+  "extension-point":"/${packageName}/extension_point/launchpad",
+  "description":"Operate extension for the Launchpad extension point"
+}
