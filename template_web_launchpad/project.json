@@ -1,1 +1,8 @@
-{"guid":"template_web_launchpad","repository":{"type":"git","branch":"master","url":"https://github.com/dirigiblelabs/template_web_launchpad.git"}}
+{
+    "guid":"template_web_launchpad",
+    "repository":{
+        "type":"git",
+        "branch":"master",
+        "url":"https://github.com/dirigiblelabs/template_web_launchpad.git"
+    }
+}
